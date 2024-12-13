@@ -3,18 +3,18 @@ using namespace std;
 
 class base
 {
-    public:
+public:
     int x;
     void getdata()
     {
         cout << "Enter value of x = ";
-        cin >> x;  
+        cin >> x;
     }
 };
 
 class derive1 : public base
 {
-    public:
+public:
     int y;
     void readdata()
     {
@@ -25,16 +25,16 @@ class derive1 : public base
 
 class derive2 : public derive1
 {
-    private:
+private:
     int z;
 
-    public:
-    void indata ()
+public:
+    void indata()
     {
         cout << "\nEnter value of z = ";
         cin >> z;
     }
-    void product ()
+    void product()
     {
         cout << "\nProduct = " << x * y * z;
     }
@@ -47,5 +47,6 @@ int main()
     a.readdata();
     a.indata();
     a.product();
+
     return 0;
 }

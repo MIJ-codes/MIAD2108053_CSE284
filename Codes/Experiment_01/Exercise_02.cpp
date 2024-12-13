@@ -46,5 +46,5 @@ int main ()
     Amla . readdata (01, "Hashim Amla", 200, 100, 5000);
     Amla . displaydata();
 
-    return 0;
+    return 0; 
 }

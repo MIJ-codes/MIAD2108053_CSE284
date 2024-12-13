@@ -35,4 +35,6 @@ int main()
     double vol = mybox.volume();
 
     cout << "Volume of the box : " << vol << endl;
+
+    return 0;
 }

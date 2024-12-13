@@ -20,5 +20,5 @@ int main ()
     //cin >> t.a >> t.b >> t.c >> t.d; inaccessible because a b c are private members
     t . access_private ();
 
-    return 0;
+    return 0; 
 }

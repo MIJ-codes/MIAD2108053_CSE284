@@ -6,6 +6,7 @@ class Complex
 private:
     float real;
     float imag;
+
 public:
     Complex ()
     {
@@ -20,12 +21,13 @@ public:
         cin >> imag;
     }
 
-    Complex /*the complex was written because the return value is a object whose type is complex*/ operator + (Complex c)
+    Complex operator + (Complex c) /*the complex was written because the return value is a object whose type is complex*/ 
     {
         //operator is a key word that is needed for operator overloading
         Complex temp;
         temp . real = real + c . real;
         temp . imag = imag + c . imag;
+        
         return temp;
     }
     
